@@ -1,0 +1,91 @@
+/* Basic reset and styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todoapp {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Updated box shadow */
+    text-align: center; /* Center align all content */
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: inline-block; /* Display form as inline block */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+   }
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 200px; /* Adjusted width */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align list items to the left */
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.todo-text {
+    flex: 1;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
